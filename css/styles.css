@@ -343,7 +343,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .overlay{
     display: flex;
-    align-items: center;
     align-items: flex-start;
     position: absolute;
     top: 0;
