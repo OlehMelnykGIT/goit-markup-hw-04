@@ -28,7 +28,9 @@ p{
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);               
             
 }
 .header-wrapper {
@@ -245,11 +247,11 @@ img{
    justify-content: center;
    align-items: center;
    margin-top: auto; 
-   gap: 8px;
+   gap: 24px;
 }
 
 .team-social .icon{
-    fill: #ffffff;
+    fill: #f4f4fd;
     
 }
 .team-social-link{
@@ -290,6 +292,7 @@ img{
     line-height: 1.2;
 }
 .about-worker {
+    margin-bottom: 8px;
     text-align: center;
     color: #434455;
     letter-spacing: 0.02em;
