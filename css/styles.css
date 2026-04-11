@@ -12,7 +12,6 @@ body {
     box-sizing: border-box;
 }
 p{
-    color: #434455;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -42,9 +41,7 @@ p{
     display: flex;
     align-items: center;
 }
-.logo{
-    margin-right: 76px;
-}
+
 
 ul {
     list-style-type: none;
@@ -77,6 +74,7 @@ ul {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 
 }
 
@@ -203,11 +201,19 @@ img{
 }
 
 .feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 
 .feature-text {
     font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
 }
 
 
@@ -225,7 +231,7 @@ img{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
-    max-width: 264px;
+
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
 }
@@ -334,11 +340,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     line-height: 1.11;
     margin-bottom: 72px;
 }
-.portfolio-overlay{
+.portfolio-wrapper{
     position: relative;
     overflow: hidden;
-  
 }
+
 .portfolio-overlay img{
     display: block;
     width: 100%;
