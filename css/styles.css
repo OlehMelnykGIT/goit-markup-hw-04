@@ -3,7 +3,7 @@ body {
     color: #434455;
     background-color: #ffffff;
     line-height: 1.5;
-    margin: 0;
+  
 }
 
 *{
@@ -11,11 +11,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-p{
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-}
+
 
 .container {
     max-width: 1158px;
@@ -40,6 +36,7 @@ p{
 .main-nav{
     display: flex;
     align-items: center;
+    gap: 76px;
 }
 
 
@@ -66,6 +63,7 @@ ul {
 }
 
 .logo {
+    margin-right: 0;
     text-decoration: none;
     color: #2e2f42;
     font-size: 18px;
@@ -74,7 +72,7 @@ ul {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-right: 76px;
+   
 
 }
 
@@ -144,7 +142,7 @@ img{
     margin: 0 auto;
     padding: 188px 0;
     background-color: #2e2f42;
-    overflow: hidden;
+
     background-image: linear-gradient(
         to bottom, rgba(46, 47, 66, 0.7)),
         url("../images/hero-image.svg");
@@ -345,7 +343,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     overflow: hidden;
 }
 
-.portfolio-overlay img{
+.portfolio-wrapper img{
     display: block;
     width: 100%;
 }
@@ -430,7 +428,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .footer-social-list{
     display: flex;
     gap: 16px;
-    align-items: center;
+   
 }
 .footer-social-link{
     width: 40px;
